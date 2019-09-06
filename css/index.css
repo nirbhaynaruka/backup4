@@ -2,61 +2,75 @@ html {
     overflow-x: hidden
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid transparent;
     border-collapse: collapse;
-  }
-  th, td,tr{
+}
+
+th,
+td,
+tr {
     padding: 40px;
     text-align: center;
     max-height: 66px;
-  }
-
-
-.btn span{
-    color: 	red !important;
 }
-.box{
+
+
+.btn span {
+    color: red !important;
+}
+
+.box {
     border: 2px solid #02fe7f;
     width: 300px;
     height: 30%;
     background: transparent;
 }
-.heading{
+
+.heading {
     background: #02fe7f;
     margin: -22px 0 -22px 0;
 }
-.heading>h1{
+
+.heading>h1 {
     text-align: center;
     color: ghostwhite;
     font-size: 20px;
 }
-.past4weeks{
+
+.past4weeks {
     border-top: 2px solid #02fe7f;
     border-bottom: 2px solid #02fe7f;
     padding-left: 10px;
     text-align: left;
 }
-.head>h1{
+
+.head>h1 {
     font-size: 20px;
     color: #02fe7f;
     text-transform: uppercase;
 }
-.head>h3{
+
+.head>h3 {
     margin-top: -10px;
     font-size: 15px;
     color: ghostwhite;
 }
-.past4weeks>h1{
+
+.past4weeks>h1 {
     /* text-align: center; */
     font-size: 22px;
     font-weight: 800;
     color: ghostwhite;
 }
-.mostfrequent{
+
+.mostfrequent {
     margin: -20px 0 -20px 0;
 }
-.mostfrequent>h1{
+
+.mostfrequent>h1 {
     padding-top: 10px;
     padding-left: 5px;
     padding-right: 5px;
@@ -64,7 +78,8 @@ table, th, td {
     font-weight: 800;
     color: ghostwhite;
 }
-.mostfrequent>h4{
+
+.mostfrequent>h4 {
     margin-top: -8px;
     /* padding-top: -10px; */
     padding-left: 5px;
@@ -73,6 +88,7 @@ table, th, td {
     font-weight: 800;
     color: #02fe7f;
 }
+
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -81,137 +97,166 @@ table, th, td {
 @media (min-width: 1281px) {
 
     @import url("https://fonts.googleapis.com/css?family=El+Messiri");
-    #contactus,#aboutus{
+
+    #contactus,
+    #aboutus {
         background-image: url('../assets/DOTTED.png');
         /* : 0.5; */
     }
+
     body {
         padding: 0;
         margin: 0;
         overflow-x: hidden;
         scroll-behavior: smooth;
-      }
-     
-      
-button:focus{
-    outline: 0;
-}
-.hiddenbutton {
-  position: relative;   
-} 
-.hiddenbutton .hovertext {
-  visibility: hidden;
-  color: #02fe7f;
-  border-radius: 0;
-  /* Position the tooltip */
-  position: relative;
-  z-index: 1;
-  font-weight: bold;
-} 
-.hiddenbutton:hover .hovertext {
-  visibility: visible;
-  color:;
-  
+    }
 
-}
-.hovertext hr {
-    margin-top: 0;
-    margin-bottom: 0;
-    border: 5px;
-    border-top: 2px solid rgba(0,0,0,.1);
-    background-color: green;
-   
-    width: 48px;
-}
-.btn{
-    background: transparent;
-    width: 10px;
-    height: 4px;
-}
-.btnusa{
-    padding: 53px;
-    margin-bottom: -53%;
+    #container {
+        background-color: transparent;
+        width: 100%;
+        height: 90vh;
+        z-index: 9;
+    }
 
-}
+    button:focus {
+        outline: 0;
+    }
 
-.btntrinidad{
-    margin: 0 0 -84% -27%;
-}
-.btnsingapore{
+    .hiddenbutton {
+        position: relative;
+    }
 
-}
-.btngermany{
-    margin-top: 167%;
+    .hiddenbutton .hovertext {
+        visibility: hidden;
+        color: #02fe7f;
+        border-radius: 0;
+        /* Position the tooltip */
+        position: relative;
+        z-index: 1;
+        font-weight: bold;
+    }
 
-}
-#norwaybtn{
-    padding: 12px 13px 58px 22px;
-    float: left;
-}
+    .hiddenbutton:hover .hovertext {
+        visibility: visible;
 
-.btnisrael{
-    margin-top: 93%;
-}
-.btnindia{
-    /* margin-top: 23%; */
-    padding: 40px;
-    margin-right: -38px;
-}
-.btntaiwan{
-    margin-bottom: -143%;
 
-}
-.btnphilippines{
-    padding: 33px;
+    }
 
-  
-}
-.btngb {
-    padding: 48px;
-    margin-right: -51%;
-}
-td.hiddenbutton.btn.btnnewzealand
-{
-    padding: 9px 16px 31px 60px;
-    margin-bottom: -117%;
-    
-}
-.btnnewzealand{
+    .hovertext hr {
+        margin-top: 0;
+        margin-bottom: 0;
+        border: 5px;
+        border-top: 2px solid rgba(0, 0, 0, .1);
+        background-color: green;
 
-    margin-top: -74px;
-    
-}
-.btnnewzealand p.hovertext{
-    margin: -36px;
+        width: 48px;
+    }
 
-}
-td.hiddenbutton.btn{
-    padding: 35px;
-}
+    .btn {
+        background: transparent;
+        width: 10px;
+        height: 4px;
+    }
 
-      #aboutus,#ourteam,#contactus{
+    .btnusa {
+        padding: 53px;
+        margin-bottom: -53%;
+
+    }
+
+    .btntrinidad {
+        margin: 0 0 -84% -27%;
+    }
+
+    .btnsingapore {}
+
+    .btngermany {
+        margin-top: 167%;
+
+    }
+
+    #norwaybtn {
+        padding: 12px 13px 58px 22px;
+        float: left;
+    }
+
+    .btnisrael {
+        margin-top: 93%;
+    }
+
+    .btnindia {
+        /* margin-top: 23%; */
+        padding: 40px;
+        margin-right: -38px;
+    }
+
+    .btntaiwan {
+        margin-bottom: -143%;
+
+    }
+
+    .btnphilippines {
+        padding: 33px;
+
+
+    }
+
+    .btngb {
+        padding: 48px;
+        margin-right: -51%;
+    }
+
+    td.hiddenbutton.btn.btnnewzealand {
+        padding: 9px 16px 31px 60px;
+        margin-bottom: -117%;
+
+    }
+
+    .btnnewzealand {
+
+        margin-top: -74px;
+
+    }
+
+    .btnnewzealand p.hovertext {
+        margin: -36px;
+
+    }
+
+    td.hiddenbutton.btn {
+        padding: 35px;
+    }
+
+    #aboutus,
+    #ourteam,
+    #contactus {
         padding: 8%;
     }
-    .about_img{
+
+    .about_img {
         width: 465px;
         /* height:233px; */
         margin: 50px 50px 50px 50px;
     }
-    .team_img{
+
+    .team_img {
         width: 465px;
         /* height:233px; */
         margin: 50px 50px 50px 50px;
     }
-    .cont_img{
-        width:465px;
+
+    .cont_img {
+        width: 465px;
         /* height:233px; */
         margin: 50px 50px 50px 50px;
     }
-    .quaffle{
-        text-align: end; 
-        padding-right:120px;
-        font-size:1.5em;
-      }
+
+    .quaffle {
+        text-align: end;
+        padding-right: 120px;
+        font-size: 1.5em;
+    }
+
     .navbar-brand>img:nth-child(1) {
         width: 14%;
         padding-left: 1vh;
@@ -225,19 +270,22 @@ td.hiddenbutton.btn{
     button:focus {
         outline: 0;
     }
-    .main-heading{
+
+    .main-heading {
         background-color: transparent;
         text-align: center;
         justify-content: center;
         align-items: center;
         margin: 18% 0 0 33%
     }
-    .main-heading>img:nth-child(1){
-        width:115px;
-        margin:0 21px 0 0;
+
+    .main-heading>img:nth-child(1) {
+        width: 115px;
+        margin: 0 21px 0 0;
     }
-    .main-heading>img:nth-child(2){
-        width:373px;
+
+    .main-heading>img:nth-child(2) {
+        width: 373px;
     }
 
     p {
@@ -258,13 +306,14 @@ td.hiddenbutton.btn{
         background-position: 175% 0%;
         background-repeat: no-repeat;
     } */
-    .feature{
+    .feature {
         background-image: url("../assets/dot_bg.png");
-        background-size:50%;
+        background-size: 50%;
         /* background-size: cover; */
         background-position: 5% 0%;
         background-repeat: no-repeat;
     }
+
     .numbers {
         padding: 2vmin 0 0 2vmin;
         /* position: absolute; */
@@ -371,6 +420,7 @@ td.hiddenbutton.btn{
         text-align: right;
         padding-right: 5vh;
     }
+
     #particles-js {
         /* z-index: 1; */
         width: 100%;
@@ -383,26 +433,26 @@ td.hiddenbutton.btn{
         z-index: -10;
         background-color: black;
     }
-    
+
     .particles-js-canvas-el {
         position: absolute;
     }
-    
+
     #myHeader {
         position: inherit;
         background-color: black;
         background: black;
         backface-visibility: hidden;
     }
-    
+
     .navbar {
         background: transparent;
     }
-    
+
     #button_head {
         background: black;
     }
-    
+
     .fixed {
         position: sticky;
         top: 0;
@@ -411,14 +461,14 @@ td.hiddenbutton.btn{
         background-color: transparent;
         z-index: 10;
         z-index: 10;
-    
-    
+
+
     }
-    
+
     .nav-item {
         padding-right: 20px;
     }
-    
+
     #button_head {
         /* border: none; */
         position: relative;
@@ -430,7 +480,7 @@ td.hiddenbutton.btn{
         height: 50px;
         font-size: 18px;
     }
-    
+
     #button_head a {
         color: white;
         padding: 0;
@@ -438,30 +488,30 @@ td.hiddenbutton.btn{
         font-weight: 500;
         font-family: 'Poppins', sans-serif;
     }
-    
+
     #button_head:hover {
         border: 3px solid green;
         color: green;
         transition: 0.5s all ease;
     }
-    
+
     #button_head a:hover {
         color: green;
     }
-    
+
     #contact>a {
         color: white;
         font-weight: 600;
     }
-    
+
     #contact>a:visited {
         border: none;
     }
-    
+
     #contact>a:active {
         border: none;
     }
-    
+
     .hidediv {
         transition: 0.3s;
         transition-timing-function: ease;
@@ -469,19 +519,19 @@ td.hiddenbutton.btn{
         position: absolute;
         transition-delay: 2000ms
     }
-    
+
     .hide {
         position: fixed;
         z-index: -99;
     }
-    
-    
+
+
     .headertoggle .newnavbar {
         transition: 0.3s;
         background-color: black;
         color: white;
     }
-    
+
     #more {
         border: solid white;
         margin: 5px;
@@ -502,7 +552,7 @@ td.hiddenbutton.btn{
 
 @media (min-width: 1025px) and (max-width: 1280px) {
 
-   
+
     @import url("https://fonts.googleapis.com/css?family=El+Messiri");
 
     body {
@@ -510,11 +560,13 @@ td.hiddenbutton.btn{
         margin: 0;
         overflow-x: hidden;
         scroll-behavior: smooth;
-      }
-      .hiddenbutton {
-        position: relative;   
-      } 
-      .hiddenbutton .hovertext {
+    }
+
+    .hiddenbutton {
+        position: relative;
+    }
+
+    .hiddenbutton .hovertext {
         background: #9da4a780;
         visibility: hidden;
         color: #fff;
@@ -522,90 +574,111 @@ td.hiddenbutton.btn{
         /* Position the tooltip */
         position: relative;
         z-index: 1;
-      } 
-      .hiddenbutton:hover .hovertext {
+    }
+
+    .hiddenbutton:hover .hovertext {
         visibility: visible;
         color: #02fe7f;
-        
+
         background: #9da4a780;
-      
-      }
-      .btn{
-          background: transparent;
-          
-      }
-      
-.btnusa{
-    padding: 53px;
-    margin-bottom: -53%;
 
-}
+    }
 
-.btntrinidad{
-    margin: 0 0 -84% -27%;
-}
-.btnsingapore{
+    .btn {
+        background: transparent;
 
-}
-.btngermany{
-    margin-top: 167%;
+    }
 
-}
-#norwaybtn{
-    padding: 12px 13px 58px 22px;
-    float: left;
-}
+    #container {
+        background-color: transparent;
+        width: 100%;
+        height: 90vh;
+        z-index: 9;
+    }
 
-.btnisrael{
-    margin-top: 93%;
-}
-.btnindia{
-    /* margin-top: 23%; */
-    padding: 40px;
-    margin-right: -38px;
-}
-.btntaiwan{
-    margin-bottom: -143%;
+    .btnusa {
+        padding: 53px;
+        margin-bottom: -53%;
 
-}
-.btnphilippines{
-    padding: 33px;
+    }
 
-  
-}
-.btngb {
-    padding: 48px;
-    margin-right: -51%;
-}
-td.hiddenbutton.btn.btnnewzealand
-{
-    padding: 9px 16px 31px 60px;
-    margin-bottom: -117%;
-    
-}
-.btnnewzealand{
+    .btntrinidad {
+        margin: 0 0 -84% -27%;
+    }
 
-    margin-top: -74px;
-    
-}
-.btnnewzealand p.hovertext{
-    margin: -36px;
+    .btnsingapore {}
 
-}
-td.hiddenbutton.btn{
-    padding: 35px;
-}
+    .btngermany {
+        margin-top: 167%;
+
+    }
+
+    #norwaybtn {
+        padding: 12px 13px 58px 22px;
+        float: left;
+    }
+
+    .btnisrael {
+        margin-top: 93%;
+    }
+
+    .btnindia {
+        /* margin-top: 23%; */
+        padding: 40px;
+        margin-right: -38px;
+    }
+
+    .btntaiwan {
+        margin-bottom: -143%;
+
+    }
+
+    .btnphilippines {
+        padding: 33px;
 
 
+    }
 
-      .quaffle{
-        text-align: end; 
-        padding-right:120px;
-        font-size:1.5em;
-      }
-    #aboutus,#ourteam,#contactus{
+    .btngb {
+        padding: 48px;
+        margin-right: -51%;
+    }
+
+    td.hiddenbutton.btn.btnnewzealand {
+        padding: 9px 16px 31px 60px;
+        margin-bottom: -117%;
+
+    }
+
+    .btnnewzealand {
+
+        margin-top: -74px;
+
+    }
+
+    .btnnewzealand p.hovertext {
+        margin: -36px;
+
+    }
+
+    td.hiddenbutton.btn {
+        padding: 35px;
+    }
+
+
+
+    .quaffle {
+        text-align: end;
+        padding-right: 120px;
+        font-size: 1.5em;
+    }
+
+    #aboutus,
+    #ourteam,
+    #contactus {
         padding: 8%;
     }
+
     .navbar-brand>img:nth-child(1) {
         width: 14%;
         padding-left: 1vh;
@@ -619,18 +692,21 @@ td.hiddenbutton.btn{
     button:focus {
         outline: 0;
     }
-    .main-heading{
+
+    .main-heading {
         text-align: center;
         justify-content: center;
         align-items: center;
         margin: 18% 0 0 30%
     }
-    .main-heading>img:nth-child(1){
-        width:115px;
-        margin:0 21px 0 0;
+
+    .main-heading>img:nth-child(1) {
+        width: 115px;
+        margin: 0 21px 0 0;
     }
-    .main-heading>img:nth-child(2){
-        width:373px;
+
+    .main-heading>img:nth-child(2) {
+        width: 373px;
     }
 
     p {
@@ -758,6 +834,7 @@ td.hiddenbutton.btn{
         text-align: right;
         padding-right: 5vh;
     }
+
     #particles-js {
         /* z-index: 1; */
         width: 100%;
@@ -769,33 +846,27 @@ td.hiddenbutton.btn{
         align-items: center; */
         z-index: -10;
         background-color: black;
-        background-image: url('../assets/world_bg.png');
-        background-size: contain;
-        background-position: 50% 50%;
-        background-repeat: no-repeat;
-        /* height: fit-content;  */
-        background-attachment: fixed;
     }
-    
+
     .particles-js-canvas-el {
         position: absolute;
     }
-    
+
     #myHeader {
         position: fixed;
         background-color: black;
         background: black;
         backface-visibility: hidden;
     }
-    
+
     .navbar {
         background: transparent;
     }
-    
+
     #button_head {
         background: black;
     }
-    
+
     .fixed {
         position: sticky;
         top: 0;
@@ -804,14 +875,14 @@ td.hiddenbutton.btn{
         background-color: transparent;
         z-index: 10;
         z-index: 10;
-    
-    
+
+
     }
-    
+
     .nav-item {
         padding-right: 20px;
     }
-    
+
     #button_head {
         /* border: none; */
         position: relative;
@@ -823,7 +894,7 @@ td.hiddenbutton.btn{
         height: 50px;
         font-size: 18px;
     }
-    
+
     #button_head a {
         color: white;
         padding: 0;
@@ -831,30 +902,30 @@ td.hiddenbutton.btn{
         font-weight: 500;
         font-family: 'Poppins', sans-serif;
     }
-    
+
     #button_head:hover {
         border: 3px solid green;
         color: green;
         transition: 0.5s all ease;
     }
-    
+
     #button_head a:hover {
         color: green;
     }
-    
+
     #contact>a {
         color: white;
         font-weight: 600;
     }
-    
+
     #contact>a:visited {
         border: none;
     }
-    
+
     #contact>a:active {
         border: none;
     }
-    
+
     .hidediv {
         transition: 0.3s;
         transition-timing-function: ease;
@@ -862,19 +933,19 @@ td.hiddenbutton.btn{
         position: absolute;
         transition-delay: 2000ms
     }
-    
+
     .hide {
         position: fixed;
         z-index: -99;
     }
-    
-    
+
+
     .headertoggle .newnavbar {
         transition: 0.3s;
         background-color: black;
         color: white;
     }
-    
+
     #more {
         border: solid white;
         margin: 5px;
@@ -896,7 +967,7 @@ td.hiddenbutton.btn{
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-   
+
     @import url("https://fonts.googleapis.com/css?family=El+Messiri");
 
     body {
@@ -904,17 +975,30 @@ td.hiddenbutton.btn{
         margin: 0;
         overflow-x: hidden;
         scroll-behavior: smooth;
-      }
-      .hiddenbutton{
+    }
+
+    .hiddenbutton {
         visibility: hidden;
     }
-      .quaffle{
-        text-align: center; 
-        font-size:1.5em;
-      }
-    #aboutus,#ourteam,#contactus{
+
+    .quaffle {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    #container {
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+        z-index: 9;
+    }
+
+    #aboutus,
+    #ourteam,
+    #contactus {
         padding: 8%;
     }
+
     .navbar-brand>img:nth-child(1) {
         width: 18%;
         padding-left: 1vh;
@@ -928,18 +1012,22 @@ td.hiddenbutton.btn{
     button:focus {
         outline: 0;
     }
-    .main-heading{
+
+    .main-heading {
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin: 18% 0 0 30%
+        top: 35%;
+        left: 20%;
     }
-    .main-heading>img:nth-child(1){
-        width:115px;
-        margin:0 21px 0 0;
+
+    .main-heading>img:nth-child(1) {
+        width: 115px;
+        margin: 0 21px 0 0;
     }
-    .main-heading>img:nth-child(2){
-        width:373px;
+
+    .main-heading>img:nth-child(2) {
+        width: 373px;
     }
 
     p {
@@ -1066,6 +1154,7 @@ td.hiddenbutton.btn{
         text-align: right;
         padding-right: 5vh;
     }
+
     #particles-js {
         /* z-index: 1; */
         width: 100%;
@@ -1077,33 +1166,27 @@ td.hiddenbutton.btn{
         align-items: center; */
         z-index: -10;
         background-color: black;
-        background-image: url('../assets/world_bg.png');
-        background-size: cover;
-        background-position: 50% 50%;
-        background-repeat: no-repeat;
-        /* height: fit-content;  */
-        background-attachment: fixed;
     }
-    
+
     .particles-js-canvas-el {
         position: absolute;
     }
-    
+
     #myHeader {
         position: fixed;
         background-color: black;
         background: black;
         backface-visibility: hidden;
     }
-    
+
     .navbar {
         background: transparent;
     }
-    
+
     #button_head {
         background: black;
     }
-    
+
     .fixed {
         position: sticky;
         top: 0;
@@ -1112,15 +1195,15 @@ td.hiddenbutton.btn{
         background-color: transparent;
         z-index: 10;
         z-index: 10;
-    
-    
+
+
     }
 
-    
+
     .nav-item {
         padding-right: 20px;
     }
-    
+
     #button_head {
         /* border: none; */
         position: relative;
@@ -1132,7 +1215,7 @@ td.hiddenbutton.btn{
         height: 50px;
         font-size: 18px;
     }
-    
+
     #button_head a {
         color: white;
         padding: 0;
@@ -1140,45 +1223,48 @@ td.hiddenbutton.btn{
         font-weight: 500;
         font-family: 'Poppins', sans-serif;
     }
-    
+
     #button_head:hover {
         border: 3px solid green;
         color: green;
         transition: 0.5s all ease;
     }
-    
+
     #button_head a:hover {
         color: green;
     }
-    
+
     #contact>a {
         color: white;
         font-weight: 600;
     }
-    
+
     #contact>a:visited {
         border: none;
     }
-    
+
     #contact>a:active {
         border: none;
     }
-    .about_img{
+
+    .about_img {
         width: 465px;
         /* height:233px; */
         /* margin: 50px 50px 50px 50px; */
     }
-    .team_img{
+
+    .team_img {
         width: 465px;
         /* height:233px; */
         /* margin: 50px 50px 50px 50px; */
     }
-    .cont_img{
-        width:465px;
+
+    .cont_img {
+        width: 465px;
         /* height:233px; */
         /* margin: 50px 50px 50px 50px; */
     }
-    
+
     .hidediv {
         transition: 0.3s;
         transition-timing-function: ease;
@@ -1186,19 +1272,19 @@ td.hiddenbutton.btn{
         position: absolute;
         transition-delay: 2000ms
     }
-    
+
     .hide {
         position: fixed;
         z-index: -99;
     }
-    
-    
+
+
     .headertoggle .newnavbar {
         transition: 0.3s;
         background-color: black;
         color: white;
     }
-    
+
     #more {
         border: solid white;
         margin: 5px;
@@ -1209,17 +1295,19 @@ td.hiddenbutton.btn{
         width: 150px;
         font-size: 20px;
     }
+
     .col-md-6 {
         /* -ms-flex: 0 0 50%; */
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .col-md-4{
+
+    .col-md-4 {
         flex: 0 0 100%;
         max-width: 100%;
     }
 
-    .numbers.d-flex.flex-md-row.flex-wrap.justify-content-center{
+    .numbers.d-flex.flex-md-row.flex-wrap.justify-content-center {
         height: auto;
     }
 }
@@ -1231,7 +1319,7 @@ td.hiddenbutton.btn{
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
-  
+
     @import url("https://fonts.googleapis.com/css?family=El+Messiri");
 
     body {
@@ -1239,17 +1327,30 @@ td.hiddenbutton.btn{
         margin: 0;
         overflow-x: hidden;
         scroll-behavior: smooth;
-      }
-      .hiddenbutton{
+    }
+
+    .hiddenbutton {
         visibility: hidden;
     }
-      .quaffle{
-        text-align: center; 
-        font-size:1.5em;
-      }
-    #aboutus,#ourteam,#contactus{
+
+    .quaffle {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    #container {
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+        z-index: 9;
+    }
+
+    #aboutus,
+    #ourteam,
+    #contactus {
         padding: 8%;
     }
+
     .navbar-brand>img:nth-child(1) {
         width: 18%;
         padding-left: 1vh;
@@ -1259,36 +1360,42 @@ td.hiddenbutton.btn{
         width: 45%;
         padding-left: 2vh;
     }
-    .about_img{
+
+    .about_img {
         width: 465px;
         /* height:233px; */
         /* margin: 50px 50px 50px 50px; */
     }
-    .team_img{
+
+    .team_img {
         width: 465px;
         /* height:233px; */
         /* margin: 50px 50px 50px 50px; */
     }
-    .cont_img{
-        width:465px;
+
+    .cont_img {
+        width: 465px;
         /* height:233px; */
         /* margin: 50px 50px 50px 50px; */
     }
+
     button:focus {
         outline: 0;
     }
-    .main-heading{
+
+    .main-heading {
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin: 18% 0 0 30%
     }
-    .main-heading>img:nth-child(1){
-        width:100px;
-        margin:0 21px 0 0;
+
+    .main-heading>img:nth-child(1) {
+        width: 100px;
+        margin: 0 21px 0 0;
     }
-    .main-heading>img:nth-child(2){
-        width:370px;
+
+    .main-heading>img:nth-child(2) {
+        width: 370px;
     }
 
     p {
@@ -1415,6 +1522,7 @@ td.hiddenbutton.btn{
         text-align: right;
         padding-right: 5vh;
     }
+
     #particles-js {
         /* z-index: 1; */
         width: 100%;
@@ -1426,33 +1534,27 @@ td.hiddenbutton.btn{
         align-items: center; */
         z-index: -10;
         background-color: black;
-        background-image: url('../assets/world_bg.png');
-        background-size: cover;
-        background-position: 50% 50%;
-        background-repeat: no-repeat;
-        /* height: fit-content;  */
-        background-attachment: fixed;
     }
-    
+
     .particles-js-canvas-el {
         position: absolute;
     }
-    
+
     #myHeader {
         position: fixed;
         background-color: black;
         background: black;
         backface-visibility: hidden;
     }
-    
+
     .navbar {
         background: transparent;
     }
-    
+
     #button_head {
         background: black;
     }
-    
+
     .fixed {
         position: sticky;
         top: 0;
@@ -1461,14 +1563,14 @@ td.hiddenbutton.btn{
         background-color: transparent;
         z-index: 10;
         z-index: 10;
-    
-    
+
+
     }
-    
+
     .nav-item {
         padding-right: 20px;
     }
-    
+
     #button_head {
         /* border: none; */
         position: relative;
@@ -1480,7 +1582,7 @@ td.hiddenbutton.btn{
         height: 50px;
         font-size: 18px;
     }
-    
+
     #button_head a {
         color: white;
         padding: 0;
@@ -1488,30 +1590,30 @@ td.hiddenbutton.btn{
         font-weight: 500;
         font-family: 'Poppins', sans-serif;
     }
-    
+
     #button_head:hover {
         border: 3px solid green;
         color: green;
         transition: 0.5s all ease;
     }
-    
+
     #button_head a:hover {
         color: green;
     }
-    
+
     #contact>a {
         color: white;
         font-weight: 600;
     }
-    
+
     #contact>a:visited {
         border: none;
     }
-    
+
     #contact>a:active {
         border: none;
     }
-    
+
     .hidediv {
         transition: 0.3s;
         transition-timing-function: ease;
@@ -1519,19 +1621,19 @@ td.hiddenbutton.btn{
         position: absolute;
         transition-delay: 2000ms
     }
-    
+
     .hide {
         position: fixed;
         z-index: -99;
     }
-    
-    
+
+
     .headertoggle .newnavbar {
         transition: 0.3s;
         background-color: black;
         color: white;
     }
-    
+
     #more {
         border: solid white;
         margin: 5px;
@@ -1542,17 +1644,19 @@ td.hiddenbutton.btn{
         width: 150px;
         font-size: 20px;
     }
+
     .col-md-6 {
         /* -ms-flex: 0 0 50%; */
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .col-md-4{
+
+    .col-md-4 {
         flex: 0 0 100%;
         max-width: 100%;
     }
 
-    .numbers.d-flex.flex-md-row.flex-wrap.justify-content-center{
+    .numbers.d-flex.flex-md-row.flex-wrap.justify-content-center {
         height: auto;
     }
 
@@ -1571,22 +1675,34 @@ td.hiddenbutton.btn{
         margin: 0;
         overflow-x: hidden;
         scroll-behavior: smooth;
-      }
-      .hiddenbutton{
+    }
+
+    #container {
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+        z-index: 9;
+    }
+
+    .hiddenbutton {
         visibility: hidden;
     }
 
-      .quaffle{
-        text-align: center; 
-        font-size:1.5em;
-      }
-    #aboutus,#ourteam,#contactus{
+    .quaffle {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    #aboutus,
+    #ourteam,
+    #contactus {
         padding: 8%;
     }
-    
-    .navbar-brand  {
+
+    .navbar-brand {
         width: 13rem;
     }
+
     .navbar-brand>img:nth-child(1) {
         width: 20%;
     }
@@ -1594,21 +1710,25 @@ td.hiddenbutton.btn{
     .navbar-brand>img:nth-child(2) {
         width: 45%;
     }
+
     button:focus {
         outline: 0;
     }
-    .main-heading{
+
+    .main-heading {
         text-align: center;
         justify-content: center;
         align-items: center;
         margin: 18% 0 0 30%
     }
-    .main-heading>img:nth-child(1){
-        width:80px;
-        margin:0 21px 0 0;
+
+    .main-heading>img:nth-child(1) {
+        width: 80px;
+        margin: 0 21px 0 0;
     }
-    .main-heading>img:nth-child(2){
-        width:200px;
+
+    .main-heading>img:nth-child(2) {
+        width: 200px;
     }
 
     p {
@@ -1621,7 +1741,8 @@ td.hiddenbutton.btn{
         font-weight: bold;
         color: black;
     }
-/* 
+
+    /* 
     #ourfeatures>section {
         background-image: url("../assets/DOTTED.png");
         background-size: 100px;
@@ -1735,6 +1856,7 @@ td.hiddenbutton.btn{
         text-align: right;
         padding-right: 5vh;
     }
+
     #particles-js {
         /* z-index: 1; */
         width: 100%;
@@ -1746,33 +1868,27 @@ td.hiddenbutton.btn{
         align-items: center; */
         z-index: -10;
         background-color: black;
-        background-image: url('../assets/world_bg.png');
-        background-size: cover;
-        background-position: 50% 50%;
-        background-repeat: no-repeat;
-        /* height: fit-content;  */
-        background-attachment: fixed;
     }
-    
+
     .particles-js-canvas-el {
         position: absolute;
     }
-    
+
     #myHeader {
         position: fixed;
         background-color: black;
         background: black;
         backface-visibility: hidden;
     }
-    
+
     .navbar {
         background: transparent;
     }
-    
+
     #button_head {
         background: black;
     }
-    
+
     .fixed {
         position: sticky;
         top: 0;
@@ -1781,14 +1897,14 @@ td.hiddenbutton.btn{
         background-color: transparent;
         z-index: 10;
         z-index: 10;
-    
-    
+
+
     }
-    
+
     .nav-item {
         padding-right: 20px;
     }
-    
+
     #button_head {
         /* border: none; */
         position: relative;
@@ -1800,7 +1916,7 @@ td.hiddenbutton.btn{
         height: 50px;
         font-size: 18px;
     }
-    
+
     #button_head a {
         color: white;
         padding: 0;
@@ -1808,30 +1924,30 @@ td.hiddenbutton.btn{
         font-weight: 500;
         font-family: 'Poppins', sans-serif;
     }
-    
+
     #button_head:hover {
         border: 3px solid green;
         color: green;
         transition: 0.5s all ease;
     }
-    
+
     #button_head a:hover {
         color: green;
     }
-    
+
     #contact>a {
         color: white;
         font-weight: 600;
     }
-    
+
     #contact>a:visited {
         border: none;
     }
-    
+
     #contact>a:active {
         border: none;
     }
-    
+
     .hidediv {
         transition: 0.3s;
         transition-timing-function: ease;
@@ -1839,19 +1955,19 @@ td.hiddenbutton.btn{
         position: absolute;
         transition-delay: 2000ms
     }
-    
+
     .hide {
         position: fixed;
         z-index: -99;
     }
-    
-    
+
+
     .headertoggle .newnavbar {
         transition: 0.3s;
         background-color: black;
         color: white;
     }
-    
+
     #more {
         border: solid white;
         margin: 5px;
@@ -1862,17 +1978,19 @@ td.hiddenbutton.btn{
         width: 150px;
         font-size: 20px;
     }
+
     .col-md-6 {
         /* -ms-flex: 0 0 50%; */
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .col-md-4{
+
+    .col-md-4 {
         flex: 0 0 100%;
         max-width: 100%;
     }
 
-    .numbers.d-flex.flex-md-row.flex-wrap.justify-content-center{
+    .numbers.d-flex.flex-md-row.flex-wrap.justify-content-center {
         height: auto;
     }
 }
@@ -1891,20 +2009,34 @@ td.hiddenbutton.btn{
         margin: 0;
         overflow-x: hidden;
         scroll-behavior: smooth;
-      }
-      .hiddenbutton{
+    }
+
+    #container {
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+        z-index: 9;
+    }
+
+    .hiddenbutton {
         visibility: hidden;
     }
-      .quaffle{
-        text-align: center; 
-        font-size:1.5em;
-      }
-    #aboutus,#ourteam,#contactus{
+
+    .quaffle {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    #aboutus,
+    #ourteam,
+    #contactus {
         padding: 8%;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         width: 15rem;
     }
+
     .navbar-brand>img:nth-child(1) {
         width: 15%;
         padding-left: 1vh;
@@ -1917,24 +2049,31 @@ td.hiddenbutton.btn{
     button:focus {
         outline: 0;
     }
-    .main-heading{
+
+    .main-heading {
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin: 18% 0 0 30%
+        top: 40%;
+        left: 2%;
     }
-    .main-heading>img:nth-child(1){
-        width:65px;
-        margin:0 21px 0 0;
+
+
+    .main-heading>img:nth-child(1) {
+        width: 65px;
+        margin: 0 21px 0 0;
     }
-    .main-heading>img:nth-child(2){
-        width:220px;
+
+    .main-heading>img:nth-child(2) {
+        width: 220px;
     }
-    .main-heading>h3{
-        font-size: 1.3em; 
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    .main-heading>h3 {
+        font-size: 1.3em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: center;
     }
+
     p {
         font-size: 1.5em;
     }
@@ -1945,21 +2084,25 @@ td.hiddenbutton.btn{
         font-weight: bold;
         color: black;
     }
-    .about_img{
+
+    .about_img {
         width: 300px;
         /* height:233px; */
         /* margin: 50px 50px 50px 50px; */
     }
-    .team_img{
+
+    .team_img {
         width: 300px;
         /* height:233px; */
         /* margin: 50px 50px 50px 50px; */
     }
-    .cont_img{
-        width:300px;
+
+    .cont_img {
+        width: 300px;
         /* height:233px; */
         /* margin: 50px 50px 50px 50px; */
     }
+
     /* #ourfeatures>section {
         background-image: url("../assets/DOTTED.png");
         background-size: 100px;
@@ -2073,6 +2216,7 @@ td.hiddenbutton.btn{
         text-align: right;
         padding-right: 5vh;
     }
+
     #particles-js {
         /* z-index: 1; */
         width: 100%;
@@ -2084,33 +2228,27 @@ td.hiddenbutton.btn{
         align-items: center; */
         z-index: -10;
         background-color: black;
-        background-image: url('../assets/world_bg.png');
-        background-size: cover;
-        background-position: 50% 50%;
-        background-repeat: no-repeat;
-        /* height: fit-content;  */
-        background-attachment: fixed;
     }
-    
+
     .particles-js-canvas-el {
         position: absolute;
     }
-    
+
     #myHeader {
         position: fixed;
         background-color: black;
         background: black;
         backface-visibility: hidden;
     }
-    
+
     .navbar {
         background: transparent;
     }
-    
+
     #button_head {
         background: black;
     }
-    
+
     .fixed {
         position: sticky;
         top: 0;
@@ -2119,14 +2257,14 @@ td.hiddenbutton.btn{
         background-color: transparent;
         z-index: 10;
         z-index: 10;
-    
-    
+
+
     }
-    
+
     .nav-item {
         padding-right: 20px;
     }
-    
+
     #button_head {
         /* border: none; */
         position: relative;
@@ -2138,7 +2276,7 @@ td.hiddenbutton.btn{
         height: 50px;
         font-size: 18px;
     }
-    
+
     #button_head a {
         color: white;
         padding: 0;
@@ -2146,30 +2284,30 @@ td.hiddenbutton.btn{
         font-weight: 500;
         font-family: 'Poppins', sans-serif;
     }
-    
+
     #button_head:hover {
         border: 3px solid green;
         color: green;
         transition: 0.5s all ease;
     }
-    
+
     #button_head a:hover {
         color: green;
     }
-    
+
     #contact>a {
         color: white;
         font-weight: 600;
     }
-    
+
     #contact>a:visited {
         border: none;
     }
-    
+
     #contact>a:active {
         border: none;
     }
-    
+
     .hidediv {
         transition: 0.3s;
         transition-timing-function: ease;
@@ -2177,19 +2315,19 @@ td.hiddenbutton.btn{
         position: absolute;
         transition-delay: 2000ms
     }
-    
+
     .hide {
         position: fixed;
         z-index: -99;
     }
-    
-    
+
+
     .headertoggle .newnavbar {
         transition: 0.3s;
         background-color: black;
         color: white;
     }
-    
+
     #more {
         border: solid white;
         margin: 5px;
@@ -2200,17 +2338,19 @@ td.hiddenbutton.btn{
         width: 150px;
         font-size: 20px;
     }
+
     .col-md-6 {
         /* -ms-flex: 0 0 50%; */
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .col-md-4{
+
+    .col-md-4 {
         flex: 0 0 100%;
         max-width: 100%;
     }
 
-    .numbers.d-flex.flex-md-row.flex-wrap.justify-content-center{
+    .numbers.d-flex.flex-md-row.flex-wrap.justify-content-center {
         height: auto;
     }
 
