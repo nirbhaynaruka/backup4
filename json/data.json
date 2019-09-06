@@ -1,0 +1,40 @@
+[
+    {
+        "Name": "USA",
+        "threat": "10.66%"
+        
+    },
+    {
+        "Name": "Philippines",
+        "threat": "0.83%"
+    },
+    {
+        "Name": "New_Zealand",
+        "threat": "0.18%"
+    },
+    {
+        "Name": "India",
+        "threat": "8.80%"
+    },
+    {
+        "Name": "Germany",
+        "threat": "1.65%"
+    },
+    {
+        "Name": "Israel",
+        "threat": "6.11%"
+    },
+    {
+        "Name": "Norway",
+        "threat": "0.64%"
+    },
+    {
+        "Name": "Taiwan",
+        "threat": "0.82%"
+    },
+    {
+        "Name": "Trinidad",
+        "threat": "0.09%"
+    }
+  
+]
