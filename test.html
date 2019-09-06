@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="assets/logo.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+    <script src="node_modules/datamaps/dist/datamaps.world.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -79,13 +83,13 @@
             </div>
         </nav>
     </header>
-    <div class="particle ">
-        <div id="map" style="background-color:#83a3c152;">
+    <div class="particle " style="margin-top: -1%;">
+        <div id="container" style="background-color:black;width: 100%;height: 600px;">
             <div class="main-heading hide" id="fadein" style="z-index:10;display: none;">
                 <img src="assets/logo.png">
                 <img src="assets/backup_text.png" alt="backup.jpg">
                 <h3
-                    style="color: black; padding-top:50px;z-index: 10; ">
+                    style="color: white; padding-top:50px;z-index: 10; ">
                     General cyber-security training provider</h3>  
             </div>
         </div>
@@ -221,6 +225,9 @@
             </div>
         </div>
     </footer>
+    <script>
+        var map = new Datamap({element: document.getElementById('container')});
+    </script>
     <script src="js/animation.js"></script>
     <script src="js/particles.js"></script>
     <script src="jquery-3.4.1.min.js"></script>

@@ -213,12 +213,12 @@ td.hiddenbutton.btn{
         font-size:1.5em;
       }
     .navbar-brand>img:nth-child(1) {
-        width: 18%;
+        width: 14%;
         padding-left: 1vh;
     }
 
     .navbar-brand>img:nth-child(2) {
-        width: 45%;
+        width: 40%;
         padding-left: 2vh;
     }
 
@@ -613,12 +613,12 @@ td.hiddenbutton.btn{
         padding: 8%;
     }
     .navbar-brand>img:nth-child(1) {
-        width: 18%;
+        width: 14%;
         padding-left: 1vh;
     }
 
     .navbar-brand>img:nth-child(2) {
-        width: 45%;
+        width: 40%;
         padding-left: 2vh;
     }
 
@@ -789,8 +789,8 @@ td.hiddenbutton.btn{
     
     #myHeader {
         position: fixed;
-        background-color: transparent;
-        background: transparent;
+        background-color: black;
+        background: black;
         backface-visibility: hidden;
     }
     
@@ -1097,8 +1097,8 @@ td.hiddenbutton.btn{
     
     #myHeader {
         position: fixed;
-        background-color: transparent;
-        background: transparent;
+        background-color: black;
+        background: black;
         backface-visibility: hidden;
     }
     
@@ -1446,8 +1446,8 @@ td.hiddenbutton.btn{
     
     #myHeader {
         position: fixed;
-        background-color: transparent;
-        background: transparent;
+        background-color: black;
+        background: black;
         backface-visibility: hidden;
     }
     
@@ -1766,8 +1766,8 @@ td.hiddenbutton.btn{
     
     #myHeader {
         position: fixed;
-        background-color: transparent;
-        background: transparent;
+        background-color: black;
+        background: black;
         backface-visibility: hidden;
     }
     
@@ -2104,8 +2104,8 @@ td.hiddenbutton.btn{
     
     #myHeader {
         position: fixed;
-        background-color: transparent;
-        background: transparent;
+        background-color: black;
+        background: black;
         backface-visibility: hidden;
     }
     
